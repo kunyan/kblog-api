@@ -1,0 +1,10 @@
+mongo:
+    image: mongo:latest
+    ports:
+        - 27017:27017
+mongo-express:
+    image: knickers/mongo-express
+    links:
+        - mongo
+    ports:
+        - 8081:8081

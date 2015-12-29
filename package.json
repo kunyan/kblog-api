@@ -1,0 +1,35 @@
+{
+  "name": "kblog",
+  "version": "1.0.0",
+  "description": "A blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kunyan/kblog.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Kun Yan <kyan@redhat.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kunyan/kblog-api/issues"
+  },
+  "homepage": "https://github.com/kunyan/kblog-api#readme",
+  "dependencies": {
+    "mongoose": "^4.3.4",
+    "mongoose-auto-increment": "^5.0.1",
+    "restify": "^4.0.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jscs": "^3.0.2",
+    "gulp-mocha": "^2.2.0",
+    "gulp-nodemon": "^2.0.4",
+    "jscs": "^2.7.0",
+    "mockgoose": "^5.1.0"
+  }
+}
