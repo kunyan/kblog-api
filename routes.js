@@ -1,6 +1,6 @@
 var restify = require('restify');
-var Article = require('./models/article');
-var User = require('./models/user');
+var Article = require('./article/article');
+var User = require('./user/user');
 
 exports.getArticle = function(req, res, next) {
   Article.findById(req.params.id, function(err, article) {

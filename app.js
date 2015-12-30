@@ -1,10 +1,8 @@
 var env = process.env.NODE_ENV || 'development';
 var restify = require('restify');
 var mongoose = require('mongoose');
-// var autoIncrement = require('mongoose-auto-increment');
 
 mongoose.connect('mongodb://localhost/blog');
-// autoIncrement.initialize(mongoose.connection);
 
 var server = restify.createServer({
   name: 'kblog-api',
